@@ -7,4 +7,4 @@ def meal_choice(side1, side2, protein = meat)
 end
 
 meal_choice(broccoli, macaroni)
-
+meal_choice(broccoli, macaroni, tofu)
