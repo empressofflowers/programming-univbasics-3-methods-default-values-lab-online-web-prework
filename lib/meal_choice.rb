@@ -4,8 +4,10 @@
 def meal_choice(side1, side2, protein = "meat")
   puts "A plate of #{protein} with #{side1} and #{side2}."
   puts "What a nutritious meal!"
-  returned_value = (side1, side2, protein = "meat")
 end
+
+  returned_value = (side1, side2, protein = "meat")
+  puts returned_value
 
 meal_choice("broccoli", "macaroni")
 meal_choice("broccoli", "macaroni", "tofu")
