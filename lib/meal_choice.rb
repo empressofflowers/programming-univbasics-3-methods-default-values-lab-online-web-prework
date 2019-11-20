@@ -6,7 +6,7 @@ def meal_choice(side1, side2, protein = "meat")
   puts "What a nutritious meal!"
 end
 
-  returned_value = (side1, side2, protein = "meat")
+  returned_value = meal_choice
   puts returned_value
 
 meal_choice("broccoli", "macaroni")
